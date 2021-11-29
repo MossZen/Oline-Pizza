@@ -9,3 +9,12 @@
     background-repeat: no-repeat;
     height: 90vh;
 }
+.pizza-type{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(247, 144, 144, 0.4);
+    height: 400;
+    text-align: center;
+} 
