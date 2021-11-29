@@ -63,7 +63,7 @@
                     <option value="stuffed">stuffed</option>
                     <option value="gluten-free">gluten-free</option>
                 </select>
-                <input type="number" min="0" max="20" id="no_of_pizza" placeholder="how many pizzas would you like?" class="form-control mb-3">
+                <input type="number" min="0" max="30" id="no_of_pizza" placeholder="how many pizzas would you like?" class="form-control mb-3">
                 <button type="submit" class="order btn btn-lg btn-danger btn-block">Order</button>
             </form>
         </div>
@@ -86,7 +86,17 @@
             </table>
             <button class="checkout btn btn-lg btn-danger btn-block">CheckOut</button>
         </div>
+        <div class="location">
+            <form action="" id="form1">
+                <input type="text" placeholder="location" class="delivery-location form-control">
+                <button type="submit" class="location-confirmation btn btn-lg btn-outline-danger btn-block">Yes deliver it to me</button>
+            </form>
+        </div>
+        <div class="message">
+            <p class="message-item text-light text-uppercase">Thankyou Your order will be delivered to your location shortly</p>
+            <button id="thankyou" class="btn btn-lg btn-block btn-danger">Thankyou</button>
+        </div>
     </div> 
-        
+      
 </body>
 </html>
