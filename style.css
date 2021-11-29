@@ -26,3 +26,44 @@
     display: none;
     text-align: center;
 }
+
+.deliver{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: rgba(0, 0, 0, .4); */
+    height: 400px;
+    width: 700px;
+}
+
+.cart{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: rgba(0, 0, 0, .4); */
+    height: 400px;
+    width: 800px;
+}
+
+.message{
+    padding-top: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, .4);
+    height: 400px;
+    width: 700px;
+}
+
+.location{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: rgba(0, 0, 0, .4); */
+    height: 400px;
+    width: 800px;
+}
