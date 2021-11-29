@@ -18,3 +18,11 @@
     height: 400;
     text-align: center;
 } 
+
+.deliver,
+.location,
+.message,
+.cart{
+    display: none;
+    text-align: center;
+}
