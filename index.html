@@ -40,9 +40,8 @@
             <h3> How would you like to recieve. </h3>
             <button class="deliver-method btn btn-danger btn-lg btn-block">Delivered</button>
         </div>
-    </div> 
-      <div class="deliver mb-5 p-5" style="display: block;">
-                <h1 class="text-light">ORDER</h1>
+        <div class="deliver mb-5 p-5" style="display: block;">
+            <h1 class="text-light">ORDER</h1>
             <form action="">
                 <select name="" id="size" class="form-control mb-3">
                     <option id="size-value" value="Enter you pizza size" class="form-control">Enter you pizza size</option>
@@ -67,6 +66,27 @@
                 <input type="number" min="0" max="20" id="no_of_pizza" placeholder="how many pizzas would you like?" class="form-control mb-3">
                 <button type="submit" class="order btn btn-lg btn-danger btn-block">Order</button>
             </form>
-            </div>
+        </div>
+        <div class="cart container" style="display: block;">
+            <table class="table table-hover table-responsive-sm-12 table-responsive-md-6 table-responsive-lg-12 bg-dark">
+                <thead class="thead-light">
+                    <tr><th scope="col">size</th>
+                    <th scope="col">(size-price)</th>
+                    <th scope="col">crust</th>
+                    <th scope="col">(crust-price)</th>
+                    <th scope="col">topping</th>
+                    <th scope="col">(topping-price)</th>
+                </tr></thead>
+                <tbody class="text-light">
+                    
+                <tr><td>Enter you pizza size</td><td>0</td><td>toppings</td><td>0</td><td></td><td>0</td></tr></tbody>
+                <tfoot>
+                    
+                <tr><td colspan="5" class="text-light">total</td><td class="text-light">NaN</td></tr></tfoot>
+            </table>
+            <button class="checkout btn btn-lg btn-danger btn-block">CheckOut</button>
+        </div>
+    </div> 
+        
 </body>
 </html>
