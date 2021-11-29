@@ -1,0 +1,11 @@
+/* body {
+    margin: 0;
+} */
+
+.Home{
+    background-image: url("./Images/pizza-lo.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
