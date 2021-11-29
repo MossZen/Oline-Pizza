@@ -40,6 +40,33 @@
             <h3> How would you like to recieve. </h3>
             <button class="deliver-method btn btn-danger btn-lg btn-block">Delivered</button>
         </div>
-    </div>   
+    </div> 
+      <div class="deliver mb-5 p-5" style="display: block;">
+                <h1 class="text-light">ORDER</h1>
+            <form action="">
+                <select name="" id="size" class="form-control mb-3">
+                    <option id="size-value" value="Enter you pizza size" class="form-control">Enter you pizza size</option>
+                    <option id="size-value" value="large">large</option>
+                    <option id="size-value" value="medium">medium</option>
+                    <option id="size-value" value="small">small</option>
+                </select>
+                <select name="" id="ham" class="form-control mb-3">
+                    <option value="ham">ham</option>
+                    <option value="beef">beef</option>
+                    <option value="blue-cheese">blue-cheese</option>
+                    <option value="brie">brie</option>
+                    <option value="carrots">carrots</option>
+                    <option value="tomatoes">tomatoes</option>
+                </select>
+                <select name="" id="crust" class="form-control mb-3">
+                    <option value="">Choose your kind of crust</option>
+                    <option value="crispy">crispy</option>
+                    <option value="stuffed">stuffed</option>
+                    <option value="gluten-free">gluten-free</option>
+                </select>
+                <input type="number" min="0" max="20" id="no_of_pizza" placeholder="how many pizzas would you like?" class="form-control mb-3">
+                <button type="submit" class="order btn btn-lg btn-danger btn-block">Order</button>
+            </form>
+            </div>
 </body>
 </html>
