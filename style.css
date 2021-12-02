@@ -60,3 +60,11 @@
     height: 400px;
     width: 800px;
 }
+
+.about {
+    margin-top: 12px;
+    padding-left: 16px;
+    text-align: justify;
+    border: 1px solid white;
+    border-radius: 12;
+}
