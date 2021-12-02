@@ -36,13 +36,13 @@ $(document).ready(function () {
             pizza_size_price += 900;
         }
 
-        if (pizza1.topping == "ham" || pizza_topping == "BBQ-chicken" || pizza_topping == "bacon" || pizza_topping == "beef") {
+        if (pizza1.topping == "ham" || pizza_topping == "beef") {
             pizza_topping_price += 150;
         }
-        else if (pizza1.topping == "blue-cheese" || pizza_topping == "brie" || pizza_topping == "manchengo" || pizza_topping == "parmesan") {
+        else if (pizza1.topping == "blue-cheese" || pizza_topping == "brie") {
             pizza_topping_price += 200;
         }
-        else if (pizza1.topping == "carrots" || pizza_topping == "tomatoes" || pizza_topping == "peas" || pizza_topping == "olives") {
+        else if (pizza1.topping == "carrots" || pizza_topping == "tomatoes") {
             pizza_topping_price += 100;
         }
 
